@@ -9,6 +9,7 @@
 - Tauri updater 使用 `dashou.app.tar.gz`、对应的 `.sig` 和 `latest.json`。
 - 当前版本提供服务器计时的 30 分钟试用；试用从用户点击“启动安全连接”开始。
 - 正式开通前不会建立 Cloudflare Tunnel；客户端不会要求用户填写服务器地址或 Cloudflare 凭据。
+- 这是受控内测包，当前尚未完成 Apple Developer ID 签名和 notarization；正式对外前请勿把它当作普通用户安装包。
 
 ## 安装
 
