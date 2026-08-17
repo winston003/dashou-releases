@@ -13,6 +13,24 @@
 
 > 这是小范围内测版本。你选择哪些文件夹，决定 ChatGPT 可以使用哪些项目。请只选择你愿意授权的文件夹。
 
+## 一个连接，三种使用方式
+
+搭手连接好以后，只要使用同一个 ChatGPT 账号，就可以在支持 ChatGPT“聊天”模式的入口继续处理自己的授权工作区：
+
+- 手机 ChatGPT：随时查看项目、阅读文件和继续对话；
+- 电脑端 ChatGPT / Codex：适合持续修改、检查和运行项目任务；
+- 网页 ChatGPT：适合完整查看工具调用、项目结果和工作过程。
+
+不论从哪一个入口开始，搭手连接的都是你在客户端亲自选择的本地文件夹。先在聊天中选择 **搭手**，再告诉 ChatGPT 你想做什么。
+
+![手机、电脑和网页都可以使用搭手](images/dashou-three-screens.png)
+
+这三张原始示例图也保留在仓库中：
+
+- [手机 ChatGPT](images/promo-mobile.jpg)
+- [电脑端 ChatGPT / Codex](images/promo-desktop.png)
+- [网页 ChatGPT](images/promo-web.png)
+
 ## 下载
 
 请打开最新 Release 页面：
