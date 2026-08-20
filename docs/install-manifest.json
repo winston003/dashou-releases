@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "product": "Dashou Desktop",
-  "currentDocumentedVersion": "0.1.3-rc.13",
+  "currentDocumentedVersion": "0.1.3-rc.14",
   "audience": "pilot-users-and-their-assistants",
   "distribution": {
     "mac": "wechat-from-known-pilot-contact",
@@ -37,7 +37,7 @@
   ],
   "safety": {
     "fileOperations": "restricted-to-selected-folders",
-    "commandExecution": "uses-current-desktop-account-authority",
+    "commandExecution": "disabled-by-default-user-opt-in-uses-current-desktop-account-authority",
     "osSandbox": false,
     "guidance": "review-the-task-before-confirming-command-execution"
   },
