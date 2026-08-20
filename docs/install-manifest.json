@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "product": "Dashou Desktop",
+  "currentDocumentedVersion": "0.1.3-rc.12",
+  "audience": "pilot-users-and-their-assistants",
+  "distribution": {
+    "mac": "wechat-from-known-pilot-contact",
+    "windows": "installer-from-known-pilot-contact",
+    "releaseHistory": "https://github.com/winston003/dashou-releases/releases/"
+  },
+  "quickStart": [
+    "install_the_matching_package",
+    "open_dashou_and_start_setup",
+    "wait_until_ready",
+    "select_one_or_more_work_folders",
+    "connect_chatgpt_and_run_a_read_only_first_task"
+  ],
+  "chatgptDeveloperModePath": [
+    "设置",
+    "插件",
+    "开发者模式",
+    "开发人员模式",
+    "在开发者模式下强制执行 CSP"
+  ],
+  "safety": {
+    "fileOperations": "restricted-to-selected-folders",
+    "commandExecution": "uses-current-desktop-account-authority",
+    "osSandbox": false,
+    "guidance": "review-the-task-before-confirming-command-execution"
+  },
+  "support": {
+    "send": [
+      "current_page_screenshot",
+      "copied_troubleshooting_information",
+      "the_step_where_progress_stopped"
+    ],
+    "neverSend": [
+      "authorization_password",
+      "connection_credentials",
+      "local_file_contents",
+      "chatgpt_conversations"
+    ]
+  },
+  "documents": {
+    "mac": "mac-install.md",
+    "windows": "windows-install.md",
+    "chatgpt": "chatgpt-connect.md",
+    "troubleshooting": "troubleshooting.md"
+  }
+}
